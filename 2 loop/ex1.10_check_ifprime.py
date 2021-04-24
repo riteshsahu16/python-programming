@@ -2,7 +2,7 @@
 n = int(input())
 i = 2
 is_prime = True
-while(i <= n**0.5):
+while(i <= n//2):
     if n%i==0:
         is_prime = False
         break

@@ -20,4 +20,13 @@ tmp = tmp + str(quotient)
 print("Answer is : ")
 for i in range(count, -1, -1):
     print(tmp[i], end="")
+print()
 
+# Another way to reverse tmp
+num = int(tmp)
+rev = ""
+for i in range(count+1):
+    last = num %10
+    rev = rev + str(last)
+    num = num//10
+print("Answer is: " ,rev)

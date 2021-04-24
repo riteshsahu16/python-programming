@@ -5,7 +5,7 @@ b = int(input())
 for i in range(a, b+1):
     j =2
     is_prime = True
-    while(j <= i**0.5):
+    while(j <= i//2):
         if i%j==0:
             is_prime = False
             break
