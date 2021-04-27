@@ -1,0 +1,49 @@
+0. Informal introduction to Python (Interpreter, Data Types, Operators)
+
+1. If-else
+
+2. Loop
+	-range
+	-continue and break
+	-pass
+
+3. Input/Output
+	-Strings
+	-Output Formatting
+	-File Handling
+
+4. Functions
+	- Arguments(Defualt, keywords), Special Parameters*, Argument Lists
+	- Lambda Expressions
+	- Documentation Strings, Function Annotations*
+	- Recursion
+	- Scoping [V.Imp]
+
+5. DS - Lists
+	- List Comprehension
+	- Nested List Comprehension
+	- Stack, Queues*
+	- Del statement
+   DS - Tuples
+   DS - Sets
+   DS - Dictionaries
+   - Misc.: Looping Techniques, Conditionals, Comparisions, etc.
+
+6. Modules
+
+7. Exception Handling
+	- Errors & Exceptions
+	- Handling Exceptions
+	- Clean-up Actions (finally)
+8. Classes
+	- Scoping (global and non-local)
+	- Defining class, instance, Methods, Constructors
+	- Inheritance (Multiple)
+	- Private Variables (Encapsulation)
+
+9. Iterators/Generators
+
+10. Standard Library
+
+*For more info. : Read Python Documentation
+
