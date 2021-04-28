@@ -1,0 +1,312 @@
+logic -> represent
+
+Intro to programming
+	- methods of representing logic: pesudocode / flowchart
+/programming lang. *
+	- Higher Level, Low Level, (Mid-Level) 
+
+High Level -  using compiler/interpreter
+ 
+- Compiler, Interpreter, Assembler *
+Assembly Level - assembler
+- Machine (binary) 0 1
+Compiler : 
+	Take all inst. at once -> check 
+	
+	code - source file 
+	save
+	compile	
+		-object   ./a.out 	-> exe
+		-bytecode (JIT - Just InTime COmpilation)
+		
+	ek bar check	- comipile time	
+	jitne bar run
+	run
+Interpreter : 
+	Line by line exe. -> run 
+	har bar run -> har bar check -> runtime
+- Basics of Binary * (Decimal representation, basics of conversion)
+
+
+Number system
+fixed symbol
+ 
+swicth on ya off 
+decimal - 0,1,2,3,4,5,6,7,8,9 = 
+
+3145 = 
+	3*1000 +  1 * 100  + 4*10 + 5*1
+		
+	10^3          10^2	10^1	10^0
+
+	base=10
+
+binary- 0,1 	* floating point ( error) 
+0 - 0
+1 - 1
+
+2 - 10
+3 -  11
+ 
+4-  100
+		1+1 = 0 (with carry 1 to next power)
+    01 - 1
++  01 - 1
+    10 - 2
+
+bitwise (binary)
+	
+Networking
+-subneting/masking
+
+fast multiplation of 2
+
+
+3*1000 +  0 * 100  + 4*10 + 5*1
+3 = 1 * 2^1 + 1 * 2^0	
+	
+
+3 = 2 +1
+base 2
+
+345 binary 
+highest of two
+
+1 0 1 1 1	binary to decimal
+1+2+4+0+16+ = 23
+		
+64+0+16+0+4+2+1 = decimal
+
+4/2 rem 0
+2/2 rem 0
+1
+100
+
+decimal to binary
+25 / 2  rem 1
+12 /2   rem 0
+6/2     rem 0
+3/2  rem 1
+1
+
+11001
+
+16+8+1 = 25
+
+octal base8  
+hexadecimal base16   0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F	
+
+
+Binary
+
+and A * B
+	1 &  1 = 1
+	1 & 0 = 0
+	0 & 1 = 0
+	0 & 0 = 0
+or  A+B	
+	1 |  1 = 1
+	1 | 0 = 1
+	0 | 1 = 1
+	0 | 0 = 0
+ 	
+xor ^  not same
+	1 ^ 1  = 0
+	0 ^ 0  = 0
+	1 ^ 0  = 1
+ 	0 ^ 1  = 1
+	
+5 - 101
+4 - 100
+and - 100 	- 4
+xor - 001		1
+or - 101 - 5	
+
+
+1010111
+0000001
+1011000
+
+1+1 = 0 (with carry 1 to the next power)
+
+not ~  negation Flips the bits  8bit lo,,, fir represent kro  int - 4byte - 16 bit 
+
+10001000 8 bit
+
+3 - 00000011
+
+5 = 000001 0 1
+	     1
+	11 0
+
+taking negation  =  11111010		MSB 0 - Positive  MSB 1 - Negative
+Since MSB is 1 so the no. is going to be negative
+now 					 - 11111010
+1's Complement 			   =   	 - 00000101 
+2's Complement (add 1 to 1's complement) = 	 - 00000110  -> -6  ans.
+
+
+so negation of 5 is -6
+
+	
+4 = 100
+ 
+and 100 = 4
+ or 101 = 5
+
+
+bitwise
+
+
+- Phases of Compilation in Python
+	-- Compilation : .py src file converted into .pyc(bytecode)
+	-- Linking : byte code loaded into python-runtime & interpreted by python vm that read each instruction 		     and execute them. Linking is final phase where all functions are linked with their 		   definitions.
+
+
+C C++ Java C#	
+		Python
+	- Python Features (Pros & Cons, Comaparsion with other lang)
+		- development speed	
+		- execution speed		
+		- code elegance
+		- type safety
+		- data types
+		- low control
+
+
+Functional - function oriented
+DRY - Don't Repeat Yourself (*****)
+set of statements - function wrap
+
+struct :- class k jaise hai, use to store data
+
+class?? : store data and methods(behaviour)
+Person : 
+attribute name age
+behaviour walk() eat()
+
+Object Oriented - 
+	Inheritance	
+	polymorphism 
+	encapsulation(hiding)
+	abstraction
+
+Difference between arrays and lists
+keyword
+list
+vector<int,n>(0) a;
+arrays [ 1 0  1  0  1  0  1]   position change by 1
+
+access arr[2] : O(1)
+deletion : O(n)
+insertion : O(n)
+
+list (linked list) [0 0 1 1 2 2 0 1]
+Access : O(n)
+Insertion/Deletion : O(1)
+1->4->2->3
+
+arrays & list python same *
+
+***************************************************************************************************
+Python Begins
+	- Interpreter
+	- Basics (Numbers, Strings, Lists)
+	- Data Types(Integers, Floating Point, Complex, Strings Boolean,
+
+1. Intro to python :
+• the high-level data types allow you to express complex operations in a single statement;
+• statement grouping is done by indentation instead of beginning and ending brackets;
+• no variable or argument declarations are necessary.
+
+2. Comments:
+Single Line Comment (Only) : # symbol
+
+3. Data Types:
+	* literals : type of r-value (ex.: "abc" is a string literal, 123 is num literal etc.)
+	- Numbers : 
+		-- int 
+		-- float
+		-- complex (-suffix "j" or "J")
+		-- Decimal 
+		-- Fractions
+	- Strings:
+		-- Can be single, double {they can be used to wrap each other} & even triple quotes {wrap both}
+		-- For raw strings (as it is) : add r before quote {print(r"\name")}
+		-- """" : used to span multiple lines. 	\n are included automatically. use \ to prevent it.
+		-- Concatenation:
+			-- "ab" + "cd" => abcd
+			-- a = "123" b="456"  a+b=> "123456"
+			--"aa" "bb" => "aabb" {:used for breaking long string} [Works only with string 												literals]
+			-- Strings can be Indexed. (Indexing can be postive/negative)
+				s = "ritesh"
+			-- Slicing : s[start:end:steps]
+			-- index out of range 
+				---s[15] throws error
+				---s[15:]/ s[:56] Works fine
+			-- Strings are Immutable * V.IMP.
+			-- len(s) => returns length of string s
+	- Lists:
+		l = [1,2,3,4,5]
+		- can contain elements of different types
+		- can be indexed / sliced
+		- can be Concatenated
+		- Lists are Mutable.
+		- l.append(x) : appends x at the end of list.
+		- Assignment to slices is legal (can grow/shrinks size of list)
+			-- l[5:10] = [6,7,8,9,10]  // Legal
+			-- l[:] = [] //clears the list
+		- len(l) : returns no. of elements in l
+		- Nested List : Possible to nest list {ex: l = [1,2,3, ['a','b']]  }
+
+print()
+	- keyword arg  end  can be used to avoid new line after the output/end output with different strings
+	 
+
+**************************************************************************************************************
+Operators
+
+Arithmetic
++ - * / 
+** exp
+% rem
+// int division
+
+bitwise 
+and &
+or |
+xor ^
+negation ~ 
+left shift <<  
+right shift >>
+
+comparision
+> , < , == , <= , >= , !=
+
+Logical operator
+and
+or 
+not
+
+Membership operator
+in
+not in
+
+Identity
+is not
+ 
+Assignments
+= , += , *= , /=, -= , etc.
+
+
+type
+
+*************************************************************************************************************
+
+
+
+
+
+
+
+

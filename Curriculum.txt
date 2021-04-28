@@ -1,25 +1,23 @@
 0. Informal introduction to Python (Interpreter, Data Types, Operators)
 
-1. If-else
-
-2. Loop
+1. Control Flow (If-else, Loop)
 	-range
 	-continue and break
 	-pass
 
-3. Input/Output
+2. Input/Output
 	-Strings
 	-Output Formatting
 	-File Handling
 
-4. Functions
+3. Functions
 	- Arguments(Defualt, keywords), Special Parameters*, Argument Lists
 	- Lambda Expressions
 	- Documentation Strings, Function Annotations*
 	- Recursion
 	- Scoping [V.Imp]
 
-5. DS - Lists
+4. DS - Lists
 	- List Comprehension
 	- Nested List Comprehension
 	- Stack, Queues*
@@ -29,21 +27,21 @@
    DS - Dictionaries
    - Misc.: Looping Techniques, Conditionals, Comparisions, etc.
 
-6. Modules
+5. Modules
 
-7. Exception Handling
+6. Exception Handling
 	- Errors & Exceptions
 	- Handling Exceptions
 	- Clean-up Actions (finally)
-8. Classes
+7. Classes
 	- Scoping (global and non-local)
 	- Defining class, instance, Methods, Constructors
 	- Inheritance (Multiple)
 	- Private Variables (Encapsulation)
 
-9. Iterators/Generators
+8. Iterators/Generators
 
-10. Standard Library
+9. Standard Library
 
 *For more info. : Read Python Documentation
 
