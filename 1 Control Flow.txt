@@ -1,0 +1,84 @@
+1. Conditionals
+if <condition>:
+elif <condition>:
+else:
+	-----
+
+eg> Max of two:
+a = int(input())
+b = int(input())
+
+if a>b:
+	print(a)
+elif b>a:
+	print(b)
+else:
+	print("a==b")
+
+Ternary Operator/Short-hand if-else
+res = "a" if a>b else "b" if b>a else "a==b"
+
+2. Looping 
+
+while-loop:
+
+while <condition>:
+	.........
+else:
+	pass
+
+
+for-loop:
+
+for i in <iterable>:
+	...........
+else:
+	pass
+
+*In python you can use else block also.
+else block : when the loop terminates normally, the else block is executed.
+		when loop terminates due to jump statement, the else block is NOT executed.
+
+*Don't get confuse with other language such a C/C++
+ scoping rules does not apply in looping due to absence of block
+
+3. break & continue
+	break : jump out of current loop	
+	continue : jump to next iteration
+
+4. pass : 	
+		-does nothing
+		-supports empty block from getting error
+
+5. range(start, end, steps) : 
+	- returns iterable object.
+	- can be give 3 arg. : start - including the start index
+			       end - excludes end index, goes upto end-1
+
+				steps: how many positions to jump & in which direction
+
+6. in 
+7. del
+8. None
+9. List Cloning
+10. is
+
+
+Membership:  x in [dfdsdf]
+is - keyword
+
+l = [1,2,3,4,5]
+m = [1,2,3,4,5]
+a = l	a will point to same object in memory 
+
+a == l	-> True
+a is l	-> True
+l == m	-> True
+l is m 	-> False
+
+prime_list = [ ]
+
+if x in prime_list:
+	return x 
+
+

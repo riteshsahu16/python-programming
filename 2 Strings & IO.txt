@@ -1,0 +1,87 @@
+String
+converting any value to string: str() or repr()
+' ' " "
+' ' 
+
+str.rstrip()
+str.lstrip()
+str.strip()
+
+s.find(pattern,start, end)  returns -1 if not found
+
+s.index(pattern,l,r)	raise Error if not found
+
+s.replace(fromstr, tostr, n)
+atmost n copies
+*Strings are immutable
+ 
+str.split(" ", n)
+
+val = s.split(" ")
+
+newstr = " ".join(val)
+
+*** return a new string
+str.rjust()
+str.ljust()
+str.center(n, "*")
+
+s.capitalize()
+s.lower()
+s.upper()
+s.title()
+s.swapcase()
+
+
+s.isaplha()
+s.isnumeric()
+
+
+
+repr()
+no., structures have same representation. while string has two representation
+adds string quotes and backslashes
+
+formatted string(f/F)
+name = "ritesh"
+f 'hello {name}' 
+print(f'{name:10} ==> {phone:10d}')  : -> wide char
+'!a' applies ascii()
+'!s' applies str()
+'!r' applies repr()
+
+print(f'My hovercraft is full of {animals!r}.')
+
+str.format()
+Positional and keyword arguments can be arbitrarily combined:
+print('The story of {0}, {1}, and {other}.'.format('Raja',"Rani '',
+other='Deewani'))
+
+Old String Formating / string interpolation
+'string' % values
+
+*if string is too long, it returns as it is
+*use slice instead x.ljust(n)[:n]
+
+str.zfill() - pads a numeric string on the left with zeros.
+
+
+
+open() returns a file object,
+-two arguments: open(filename, mode).
+
+modes:
+- ' r '	: read
+- ' w '	: write
+- ' a '	: append
+optional - default is ' r '
+
+* Good practise to use " with " 
+with open('workfile') as f:
+	read_data = f.read()
+
+or alternatively f.close() 
+to free up system resources
+
+f.closed -> checks if file handle if is closed.
+

@@ -1,4 +1,4 @@
-
+﻿
 
 Intro to programming
 	- methods of representing logic: pesudocode / flowchart
@@ -241,6 +241,7 @@ Single Line Comment (Only) : # symbol
 				---s[15:]/ s[:56] Works fine
 			-- Strings are Immutable * V.IMP.
 			-- len(s) => returns length of string s
+			-- Repeatation: s = "ritesh"  	print(s*2) => riteshritesh
 	- Lists:
 		l = [1,2,3,4,5]
 		- can contain elements of different types
@@ -253,6 +254,7 @@ Single Line Comment (Only) : # symbol
 			-- l[:] = [] //clears the list
 		- len(l) : returns no. of elements in l
 		- Nested List : Possible to nest list {ex: l = [1,2,3, ['a','b']]  }
+		
 
 print()
 	- keyword arg  end  can be used to avoid new line after the output/end output with different strings
@@ -292,6 +294,120 @@ is not
  
 Assignments
 = , += , *= , /=, -= , etc.
+
+**************************************************************************************************************
+Hands-On Python
+
+1. Working with interpreter
+>>>a = 5
+>>>b = 6
+>>>a+b		<- giving instruction to add two variable
+11		<- Gives output. Note there is no prompt. hence we can't give instruction
+>>>		<- this indicates prompt/shell is ready to take instruction
+
+2. Working with source file
+working with interpreter becomes tedious for larger programs, therefore we code into a file with extension .py
+and then run it.
+example> hello.py is a source file
+now we in command prompt:
+
+> python3 hello.py 
+Hello!
+
+***************************************************************************************************************
+Variables
+a =  5
+a = b = c = 0
+a,b,c = 1,2,3
+(a,b) = (b,a)
+
+a = 5
+a = "dfls"
+
+
+str1
+
+**************************************************************************************************************
+Input-Output
+
+input : input(<str:msg optional>)
+name = input()
+
+output: print(<str> || <comma separated values> )
+notes: adding comma, adds a space char
+
+name = "ritesh"
+print("hello", name)
+
+By default print append \n at the end
+You can change it's behaviour by adding end arg. 
+
+ex> print("hello", end=" ")
+    print("World!")
+o/p: hello World! 
+
+
+***************************************************************************************************************
+Type Conversion : Implicit/Explicit
+
+we learnt about data types.
+
+To get the type of object: use type(obj) function
+s = "r"
+type(s) => str
+s = 2
+type(s) => int 
+s = 2.0
+type(s) => float
+
+Type Conversion
+
+1. Implicit
+	- Automatically (done by interpreter/compiler)
+	- between compatible types(No data Loss) 
+
+2. Explicit
+	- Manually (done by programmer)
+	- data loss
+
+>>>res = 2 + 5.0   // Here 2 is of int type and 5.0 is of float.
+>>>res		   // Therefore, 2 is converted to float before calculation automatically
+7.0		   // hence we get 7.0
+
+>>>num = int('5')  // Explicitly type-casted string to integer.
+>>>num
+5
+
+*NOTE: 
+
+input() -> always returns str, so to get a no. it has to be type casted
+
+**************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 *************************************************************************************************************
 
